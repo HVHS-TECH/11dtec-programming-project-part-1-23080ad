@@ -18,7 +18,7 @@ function askViewerName(){
 
 function askUserSeats (){
     userSeats = ["a","b","c"];
-    let choice = prompt("");
+    let choice = prompt("how many seats would like in your car?");
 }
 
 function rentACar(){
