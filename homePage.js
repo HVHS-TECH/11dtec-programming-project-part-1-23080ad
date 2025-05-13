@@ -16,6 +16,10 @@ function askViewerName(){
     viewerName = prompt("What is your name friend?")
 }
 
+function askUserSeats (){
+    userSeats = prompt
+}
+
 function rentACar(){
     viewerName = askViewerName ();
 }
