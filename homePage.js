@@ -34,8 +34,8 @@ This function asks the user if they like their car and stores their answer in a 
 ***************************************************************************************/
 function askCarReselect() {
     carReselect = prompt("does this car interest you?")
-    if (carReselect == ){
-
+    if (carReselect == "yes"){
+        alert("hello unc")
     }
 }
 
