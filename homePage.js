@@ -18,6 +18,7 @@ function askViewerName() {
     testName = viewerName;
 }
 
+//
 function askUserSeats() {
     userSeats = prompt("hello " + testName + ", please enter how many seats would like in your car" +
         "\nso that we can try and find a model that matches your reqirements?");
