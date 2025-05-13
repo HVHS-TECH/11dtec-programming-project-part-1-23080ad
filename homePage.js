@@ -25,10 +25,11 @@ function askUserSeats() {
 }
 
 function askCarReselect (){
-    carReselect =
+    carReselect = prompt("does this car interest you?")
 }
 
 function rentACar() {
     viewerName = askViewerName();
     userSeats = askUserSeats();
+    carReselect = askCarReselect ();
 }
