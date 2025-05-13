@@ -1,7 +1,7 @@
 //Title
 
 //Variables
-let seatsPerCar = ["so you dont want a car?","a","b","c"];
+let seatsPerCar = ["so you dont want a car?","BAC Mono ","MX5","c"];
 
 /*****************************
 Main code
