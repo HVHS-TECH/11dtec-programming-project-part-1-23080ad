@@ -24,6 +24,10 @@ function askUserSeats() {
     alert(seatsPerCar[userSeats]);
 }
 
+function askCarReselect (){
+    carReselect =
+}
+
 function rentACar() {
     viewerName = askViewerName();
     userSeats = askUserSeats();
