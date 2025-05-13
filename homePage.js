@@ -18,6 +18,7 @@ function askViewerName(){
 
 function askUserSeats (){
     userSeats = ["a","b","c"];
+    let choice = prompt("");
 }
 
 function rentACar(){
