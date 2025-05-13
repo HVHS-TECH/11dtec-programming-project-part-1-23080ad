@@ -36,6 +36,10 @@ function askCarReselect() {
     carReselect = prompt("does this car interest you?")
     if (carReselect == "yes"){
         alert("hello unc")
+    }else if (carReselect == "no"){
+        alert("")
+    }else{
+
     }
 }
 
