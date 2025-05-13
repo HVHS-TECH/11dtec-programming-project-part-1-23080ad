@@ -17,9 +17,11 @@ function askViewerName(){
 }
 
 function askUserSeats (){
-    userSeats = prompt[""];
+    userSeats = ["a","b","c"];
 }
 
 function rentACar(){
     viewerName = askViewerName ();
+    userSeats = askUserSeats ();
+    alert(userSeats[choice]);
 }
