@@ -1,13 +1,13 @@
 //Title
 
 //Variables
-let seatsPerCar = ["a","b","c"];
+let seatsPerCar = ["so you dont want a car?","a","b","c"];
 
 /*****************************
 Main code
 *****************************/
 console.log("Running homePage.css");
-userSeats = prompt("how many seats would like in your car?");
+
 
 /***************************** 
 Functions 
@@ -18,10 +18,10 @@ function askViewerName(){
 
 function askUserSeats (){
     userSeats = prompt("how many seats would like in your car?");
+     alert(seatsPerCar[userSeats]);
 } 
 
 function rentACar(){
     viewerName = askViewerName ();
     userSeats = askUserSeats ();
-    alert(seatsPerCar[userSeats]);
 }
