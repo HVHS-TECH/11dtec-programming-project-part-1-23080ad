@@ -18,9 +18,9 @@ function askViewerName() {
     testName = viewerName;
 }
 
-//
+// This asks the user how many seats they would like in their and then tells them what car is currently avaliable with that many seats
 function askUserSeats() {
-    userSeats = prompt("hello " + testName + ", please enter how many seats would like in your car" +
+    userSeats = prompt("hello " + testName + ", please enter how many seats you would like in your car" +
         "\nso that we can try and find a model that matches your reqirements?");
     alert(seatsPerCar[userSeats]);
 }
