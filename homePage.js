@@ -37,10 +37,10 @@ function askCarReselect() {
     if (carReselect == "yes"){
         alert("hello unc")
     }else if (carReselect == "no"){
-        alert("")
-    }else{
+        alert("Sorry, we dont have any more cars with that many seats. \nWould you like to rent a different car?")
+    }//else{
 
-    }
+   // }
 }
 
 /*************************************************************************************
