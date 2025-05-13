@@ -18,19 +18,29 @@ function askViewerName() {
     testName = viewerName;
 }
 
-// This asks the user how many seats they would like in their and then reads the array to see what car is currently avaliable with that many seats
+/*************************************************************************************
+This asks the user how many seats they would like in their car,
+and then reads the array to see what car is currently avaliable with that many seats.
+*************************************************************************************/
 function askUserSeats() {
     userSeats = prompt("hello " + testName + ", please enter how many seats you would like in your car" +
         "\nso that we can try and find a model that matches your reqirements?");
     alert(seatsPerCar[userSeats]);
 }
 
-function askCarReselect (){
+
+/***************************************************************************************
+This function asks the user if they like their car and stores their answer in a variable
+***************************************************************************************/
+function askCarReselect() {
     carReselect = prompt("does this car interest you?")
 }
 
+/***
+This function activates
+ */
 function rentACar() {
     viewerName = askViewerName();
     userSeats = askUserSeats();
-    carReselect = askCarReselect ();
+    carReselect = askCarReselect();
 }
