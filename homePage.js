@@ -36,9 +36,10 @@ function askCarReselect() {
     carReselect = prompt("does this car interest you?")
 }
 
-/***
-This function activates
- */
+/*************************************************************************************
+This function activates when the rent a car button is pressed
+and procedes to call afew other functions which determine the right car for the user.
+*************************************************************************************/
 function rentACar() {
     viewerName = askViewerName();
     userSeats = askUserSeats();
