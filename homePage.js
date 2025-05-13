@@ -18,7 +18,7 @@ function askViewerName() {
 }
 
 function askUserSeats() {
-    userSeats = prompt("how many seats would like in your car?");
+    userSeats = prompt("Please enter how many seats would like in your car so we can try and find a model that matches your reqirements?");
     alert(seatsPerCar[userSeats]);
 }
 
