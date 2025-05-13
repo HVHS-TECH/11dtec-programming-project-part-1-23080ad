@@ -2,7 +2,7 @@
 
 //Variables
 let seatsPerCar = ["so you dont want a car?", "BAC Mono ", "MX5", "We have no three seated cars sorry",
-    "Mini", "Falcon", "We have no three seated cars sorry", "Outlander", "Estima "];
+    "Mini", "Falcon", "We have no six seated cars sorry", "Outlander", "Estima "];
 
 /*****************************
 Main code
