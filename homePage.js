@@ -1,13 +1,13 @@
 //Title
 
 //Variables
-seatsPerCar = ["a","b","c"];
+let seatsPerCar = ["a","b","c"];
 
 /*****************************
 Main code
 *****************************/
 console.log("Running homePage.css");
-
+userSeats = prompt("how many seats would like in your car?");
 
 /***************************** 
 Functions 
