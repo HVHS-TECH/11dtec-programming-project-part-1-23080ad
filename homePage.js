@@ -26,7 +26,7 @@ function askUserSeats() {
     userSeats = prompt("hello " + testName + ", please enter how many seats you would like in your car" +
         "\nso that we can try and find a model that matches your reqirements?");
     alert(seatsPerCar[userSeats]);
-     seatsInCarCounter = userSeats;
+    seatsInCarCounter = userSeats;
 }
 
 
@@ -35,14 +35,14 @@ This function asks the user if they like their car and stores their answer in a 
 ***************************************************************************************/
 function askCarReselect() {
     carReselect = prompt("does this car interest you?")
-    if (carReselect == "yes"){
+    if (carReselect == "yes") {
         alert("hello unc")
-    }else if (carReselect == "no"){
-       reselectConfirm = prompt("Sorry, we dont have any more cars with " + seatsInCarCounter + " seats. \nWould you like to rent a different car?");
-        if (reselectConfirm = "yes"){
+    } else if (carReselect == "no") {
+        reselectConfirm = prompt("Sorry, we dont have any more cars with " + seatsInCarCounter + " seats. \nWould you like to rent a different car?");
+        if (reselectConfirm = "yes") {
             userSeats = askUserSeats();
             carReselect = askCarReselect();
-        }else{
+        } else if (reselectConfirm = "no") {
             alert("thank you for shopping at Robs Rentals, we will notify you via email when we restock our " + seatsInCarCounter + " seater range.")
         }
     }
