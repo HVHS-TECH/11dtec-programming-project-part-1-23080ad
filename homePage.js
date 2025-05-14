@@ -4,6 +4,7 @@
 let seatsPerCar = ["so you dont want a car?", "May i suggest the BAC Mono?", "MX5", "We have no three seated cars sorry",
     "Mini", "Falcon", "We have no six seated cars sorry", "Outlander", "Estima "];
 var seatsInCarCounter = 0;
+var carReselect =0;
 /*****************************
 Main code
 *****************************/
