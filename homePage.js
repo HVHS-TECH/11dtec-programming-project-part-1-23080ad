@@ -36,7 +36,7 @@ This function asks the user if they like their car and stores their answer in a 
 function askCarReselect() {
     carReselect = prompt("does this car interest you?")
     if (carReselect == "yes") {
-        alert("hello unc")
+        alert("Perfect")
     } else if (carReselect == "no") {
         reselectConfirm = prompt("Sorry, we dont have any more cars with " + seatsInCarCounter + " seats. \nWould you like to rent a different car?");
         if (reselectConfirm = "yes") {
