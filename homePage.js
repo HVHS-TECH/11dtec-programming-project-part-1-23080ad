@@ -38,10 +38,13 @@ function askCarReselect() {
     if (carReselect == "yes"){
         alert("hello unc")
     }else if (carReselect == "no"){
-        alert("Sorry, we dont have any more cars with " + seatsInCarCounter + " seats. \nWould you like to rent a different car?")
-    }//else{
-
-   // }
+       reselectConfirm = prompt("Sorry, we dont have any more cars with " + seatsInCarCounter + " seats. \nWould you like to rent a different car?");
+        if (reselectConfirm = "yes"){
+            userSeats = askUserSeats();
+        }else{
+            alert("thank you for shopping at Robs Rentals, we will notify you via email when we restock our " + seatsInCarCounter + " seater range.")
+        }
+    }
 }
 
 /*************************************************************************************
