@@ -44,10 +44,10 @@ function askCarReselect() {
             carReselect = askCarReselect();
         } else if (reselectConfirm = "no") {
             alert("thank you for shopping at Robs Rentals, we will notify you via email when we restock our " + seatsInCarCounter + " seater range.")
-        }else{
+        } else {
             alert("Ireally dont understand sorry.")
         }
-    }else{
+    } else {
         alert("I dont understand sorry.")
     }
 }
