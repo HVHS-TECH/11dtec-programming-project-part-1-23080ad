@@ -26,7 +26,7 @@ function askUserSeats() {
     userSeats = prompt("hello " + testName + ", please enter how many seats you would like in your car" +
         "\nso that we can try and find a model that matches your reqirements?");
     alert(seatsPerCar[userSeats]);
-    let seatsInCarCounter = userSeats;
+     seatsInCarCounter = userSeats;
 }
 
 
@@ -38,7 +38,7 @@ function askCarReselect() {
     if (carReselect == "yes"){
         alert("hello unc")
     }else if (carReselect == "no"){
-        alert("Sorry, we dont have any more cars with that many seats. \nWould you like to rent a different car?")
+        alert("Sorry, we dont have any more cars with " + seatsInCarCounter + " seats. \nWould you like to rent a different car?")
     }//else{
 
    // }
