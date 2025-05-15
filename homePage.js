@@ -38,6 +38,7 @@ This function asks the user if they like their car and stores their answer in a 
 ***************************************************************************************/
 function askCarReselect() {
     carReselect = prompt("does this car interest you?")
+    
     if (carReselect == "yes") {
         alert("Perfect")
     } else if (carReselect == "no") {
@@ -45,11 +46,14 @@ function askCarReselect() {
     } else {
         alert("What are you saying?")
     }
-    if (reselectConfirmb = "no") {
+   
+    if (reselectConfirm = "no") {
         alert("thank you for shopping at Robs Rentals, we will notify you via email when we restock our " + seatsInCarCounter + " seater range.")
+    } else if (reselectConfirm = "yes") {
+        alert("wwwww")
     } else {
         alert("I really dont understand sorry.")
-    } 
+    }
 }
 
 /*************************************************************************************
