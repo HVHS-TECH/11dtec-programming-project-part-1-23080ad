@@ -47,9 +47,9 @@ function askCarReselect() {
         alert("What are you saying?")
     }
    
-    if (reselectConfirm = "no") {
+    if (reselectConfirm == "no") {
         alert("thank you for shopping at Robs Rentals, we will notify you via email when we restock our " + seatsInCarCounter + " seater range.")
-    } else if (reselectConfirm = "yes") {
+    } else if (reselectConfirm == "yes") {
         alert("wwwww")
     } else {
         alert("I really dont understand sorry.")
