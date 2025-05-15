@@ -34,11 +34,13 @@ function askUserSeats() {
 
 
 /***************************************************************************************
-This function asks the user if they like their car and stores their answer in a variable
+This function asks the user if they like their car and stores their answer in a variable.
+If they do not like their car it asks them if they would likr to look at another car.
+if they still say no it directs them off the site.
 ***************************************************************************************/
 function askCarReselect() {
     carReselect = prompt("does this car interest you?")
-    
+
     if (carReselect == "yes") {
         alert("Perfect")
     } else if (carReselect == "no") {
@@ -46,7 +48,7 @@ function askCarReselect() {
     } else {
         alert("What are you saying?")
     }
-   
+
     if (reselectConfirm == "no") {
         alert("thank you for shopping at Robs Rentals, we will notify you via email when we restock our " + seatsInCarCounter + " seater range.")
     } else if (reselectConfirm == "yes") {
