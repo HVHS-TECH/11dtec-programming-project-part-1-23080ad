@@ -1,8 +1,8 @@
 //Title
 
 //Variables
-let seatsPerCar = ["so you dont want a car?", "May i suggest the BAC Mono?", "MX5", "We have no three seated cars sorry",
-    "Mini", "Falcon", "We have no six seated cars sorry", "Outlander", "Estima "];
+let seatsPerCar = ["so you dont want a car?", "May I suggest the BAC Mono?", "May I suggest the MX5?", "We have no three seated cars sorry",
+    "May I suggest the Mini?", "May I suggest the Falcon?", "We have no six seated cars sorry", "May I suggest the Outlander?", "May I suggest the Estima?"];
 var seatsInCarCounter = 0;
 var carReselect;
 var viewerName;
