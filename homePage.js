@@ -45,13 +45,13 @@ function askCarReselect() {
     } else {
         alert("What are you saying?")
     }
-        if (reselectConfirm = "no") {
-            alert("thank you for shopping at Robs Rentals, we will notify you via email when we restock our " + seatsInCarCounter + " seater range.")
-        } else if {
-            alert("I really dont understand sorry.")
-        } else {
-            alert("I dont understand sorry.")
-        }
+    if (reselectConfirm = "no") {
+        alert("thank you for shopping at Robs Rentals, we will notify you via email when we restock our " + seatsInCarCounter + " seater range.")
+    } else if (reselectConfirm = "no") {
+        alert("I really dont understand sorry.")
+    } else {
+        alert("I dont understand sorry.")
+    }
 }
 
 /*************************************************************************************
