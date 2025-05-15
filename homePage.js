@@ -17,7 +17,7 @@ console.log("Running homePage.css");
 Functions 
 *****************************/
 function askViewerName() {
-    viewerName = prompt("What is your name friend?", bob);
+    viewerName = prompt('What is your name friend?', bob);
     testName = viewerName;
 }
 
