@@ -34,13 +34,10 @@ function askUserSeats() {
         alert("We do not have any cars with 9 or more seats sorry. Goodbye.")
     } else if (userSeats == 0) {
         alert("Goodbye.")
-    }else if (userSeats == 6){
-        carReselect = askCarReselect();
-    }else if (userSeats == 3){
-        reselectConfirm = prompt("Sorry, we dont have any more cars with " + seatsInCarCounter + " seats. \nWould you like to rent a different car?");
-    } else {
-        alert("What are you saying?")
-    }
+    } else if (userSeats == 6) {
+        alert("its over for you")
+    } else if (userSeats == 3) {
+        alert("its over for you")
     } else {
         carReselect = askCarReselect();
     }
