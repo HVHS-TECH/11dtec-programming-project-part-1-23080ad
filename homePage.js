@@ -30,11 +30,11 @@ function askUserSeats() {
         "\nso that we can try and find a model that matches your reqirements?");
     alert(seatsPerCar[userSeats]);
     seatsInCarCounter = userSeats;
-    if (userSeats >= 9){
+    if (userSeats >= 9) {
         alert("We do not have any cars with 9 or more seats sorry. Goodbye.")
-    } else if (userSeats == 0){
+    } else if (userSeats == 0) {
         alert("Goodbye.")
-    } else{
+    } else {
         carReselect = askCarReselect();
     }
 }
@@ -52,18 +52,18 @@ function askCarReselect() {
         alert("Perfect")
     } else if (carReselect == "no") {
         reselectConfirm = prompt("Sorry, we dont have any more cars with " + seatsInCarCounter + " seats. \nWould you like to rent a different car?");
-     if (reselectConfirm == "no") {
-         alert("thank you for shopping at Robs Rentals, we will notify you via email when we restock our " + seatsInCarCounter + " seater range.")
-     } else if (reselectConfirm == "yes") {
-         userSeats = askUserSeats();
-     } else {
-           alert("I really dont understand sorry.")
-    }
+        if (reselectConfirm == "no") {
+            alert("thank you for shopping at Robs Rentals, we will notify you via email when we restock our " + seatsInCarCounter + " seater range.")
+        } else if (reselectConfirm == "yes") {
+            userSeats = askUserSeats();
+        } else {
+            alert("I really dont understand sorry.")
+        }
     } else {
         alert("What are you saying?")
     }
 
-    
+
 }
 
 /*************************************************************************************
