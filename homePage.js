@@ -2,7 +2,7 @@
 
 //Variables
 let seatsPerCar = ["so you dont want a car?", "May I suggest the BAC Mono?", "May I suggest the MX5?", "We have no three seated cars sorry",
-    "May I suggest the Mini?", "May I suggest the Falcon?", "We have no six seated cars sorry", "May I suggest the Outlander?", "May I suggest the Estima?","We do not have any cars with 9 or more seats sorry."];
+    "May I suggest the Mini?", "May I suggest the Falcon?", "We have no six seated cars sorry", "May I suggest the Outlander?", "May I suggest the Estima?"];
 var seatsInCarCounter = 0;
 var carReselect;
 var viewerName;
@@ -30,6 +30,11 @@ function askUserSeats() {
         "\nso that we can try and find a model that matches your reqirements?");
     alert(seatsPerCar[userSeats]);
     seatsInCarCounter = userSeats;
+    if (userSeats > 8){
+        alert("We do not have any cars with 9 or more seats sorry.")
+    } else {
+        carReselect = askCarReselect();
+    }
 }
 
 
@@ -65,5 +70,4 @@ and procedes to call afew other functions which determine the right car for the 
 function rentACar() {
     viewerName = askViewerName();
     userSeats = askUserSeats();
-    carReselect = askCarReselect();
 }
