@@ -30,7 +30,7 @@ function askUserSeats() {
         "\nso that we can try and find a model that matches your reqirements?");
     alert(seatsPerCar[userSeats]);
     seatsInCarCounter = userSeats;
-    if (userSeats > 8){
+    if (userSeats >= 9){
         alert("Goodbye.")
     } else if (userSeats == 0){
         alert("Goodbye.")
