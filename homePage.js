@@ -32,9 +32,11 @@ function askUserSeats() {
     seatsInCarCounter = userSeats;
     if (userSeats > 8){
         alert("Goodbye.")
-    } else {
+    } else if (userSeats == 0){
+        alert("Goodbye.")
+    } else{
         carReselect = askCarReselect();
-    } 
+    }
 }
 
 
