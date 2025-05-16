@@ -34,7 +34,7 @@ function askUserSeats() {
         alert("Goodbye.")
     } else {
         carReselect = askCarReselect();
-    }
+    } 
 }
 
 
