@@ -37,7 +37,10 @@ function askUserSeats() {
     }else if (userSeats == 6){
         carReselect = askCarReselect();
     }else if (userSeats == 3){
-        carReselect = askCarReselect();
+        reselectConfirm = prompt("Sorry, we dont have any more cars with " + seatsInCarCounter + " seats. \nWould you like to rent a different car?");
+    } else {
+        alert("What are you saying?")
+    }
     } else {
         carReselect = askCarReselect();
     }
